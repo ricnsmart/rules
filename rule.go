@@ -10,5 +10,6 @@ const (
 	Unregistered = 5 // 设备未注册
 
 	// Redis Key
-	DeviceStatus = `devices/status`
+	DeviceStatus   = `devices/status`
+	ServiceVersion = `service/version`
 )
