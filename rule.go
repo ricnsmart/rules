@@ -7,4 +7,7 @@ const (
 	Offline  = 2 // 设备离线
 	Warn     = 3 // 设备预警
 	Alert    = 4 // 设备报警
+
+	// Redis Key
+	DeviceStatus = `devices/status`
 )
