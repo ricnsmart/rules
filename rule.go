@@ -1,6 +1,12 @@
 package rules
 
 const (
+	// 设备类型常量
+	PMC350F = 1
+	VJG     = 2
+	VJL     = 3
+	RCN350F = 4
+
 	// 设备状态
 	Inactive     = 0 // 设备未激活
 	Online       = 1 // 设备正常在线
