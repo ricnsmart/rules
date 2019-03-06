@@ -19,3 +19,10 @@ const (
 	DeviceStatus   = `devices/status`
 	ServiceVersion = `service/version`
 )
+
+var DeviceTypeMap = map[int]string{
+	PMC350F: "pmc350f",
+	VJG:     "vjg",
+	VJL:     "Vjl",
+	RCN350F: "rcn350f",
+}
