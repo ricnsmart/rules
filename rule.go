@@ -26,6 +26,6 @@ const (
 var DeviceTypeMap = map[int]string{
 	PMC350F: "pmc350f",
 	VJG:     "vjg",
-	VJL:     "Vjl",
+	VJL:     "vjl",
 	RCN350F: "rcn350f",
 }
