@@ -18,6 +18,9 @@ const (
 	// Redis Key
 	DeviceStatus   = `devices/status`
 	ServiceVersion = `service/version`
+
+	// RabbitMQ
+	AlarmExchange = `alarm`
 )
 
 var DeviceTypeMap = map[int]string{
