@@ -6,6 +6,7 @@ const (
 	VJG     = 2
 	VJL     = 3
 	RCN350F = 4
+	PMC350A = 5
 
 	// 设备状态
 	Inactive     = 0 // 设备未激活
@@ -23,9 +24,16 @@ const (
 	AlarmExchange = `alarm`
 )
 
-var DeviceTypeMap = map[int]string{
+var DeviceTypeLowerCaseFullName = map[int]string{
 	PMC350F: "pmc350f",
 	VJG:     "vjg",
 	VJL:     "vjl",
 	RCN350F: "rcn350f",
+	PMC350A: "pmc350a",
+}
+
+var DeviceTypeLowerCaseShortName = map[int]string{
+	PMC350F: "f",
+	RCN350F: "r",
+	PMC350A: "a",
 }
