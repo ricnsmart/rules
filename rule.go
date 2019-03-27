@@ -22,6 +22,9 @@ const (
 
 	// RabbitMQ
 	AlarmExchange = `alarm`
+
+	// MongoDB
+	DevicesCollection = `devices`
 )
 
 var DeviceTypeLowerCaseFullName = map[int]string{
