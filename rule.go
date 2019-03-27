@@ -25,6 +25,15 @@ const (
 
 	// MongoDB
 	DevicesCollection = `devices`
+
+	// 服务类型
+
+	ProductMaintenance = 1 // 产品维护
+	AlarmProcessed     = 2 // 报警已处理
+	Eliminated         = 3 // 排除电气隐患
+	PendingEliminate   = 4 // 待排除电气隐患
+	Other              = 5 // 其他
+	Polling            = 6 // 巡检
 )
 
 var DeviceTypeLowerCaseFullName = map[int]string{
