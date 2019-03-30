@@ -24,6 +24,7 @@ const (
 
 	// RabbitMQ
 	AlarmExchange = `alarm`
+	ParamExhcange = `param`
 
 	// MongoDB
 	DevicesCollection = `devices`
