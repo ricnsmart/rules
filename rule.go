@@ -16,8 +16,6 @@ const (
 	Alert        = 4 // 设备报警
 	Unregistered = 5 // 设备未注册
 
-	Recover = 6 // 设备指标恢复
-
 	// Redis Key
 	DeviceStatus   = `devices/status`
 	ServiceVersion = `service/version`
