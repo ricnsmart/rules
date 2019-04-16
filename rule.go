@@ -20,8 +20,8 @@ const (
 	ServiceVersion = `service/version`
 
 	// RabbitMQ
-	AlarmExchange = `alarm`
-	ParamExchange = `param`
+	AlarmExchange = `alarms`
+	ParamExchange = `params`
 
 	// MongoDB
 	DevicesCollection = `devices`
