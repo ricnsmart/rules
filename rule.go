@@ -49,3 +49,11 @@ var DeviceTypeLowerCaseShortName = map[int]string{
 	RCN350F: "r",
 	PMC350:  "a",
 }
+
+var DeviceStatusDESC = map[int]string{
+	Inactive: "设备未激活",
+	Online:   "设备正常",
+	Offline:  "设备离线",
+	Warn:     "设备预警",
+	Alert:    "设备报警",
+}
