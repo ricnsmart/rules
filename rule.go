@@ -62,3 +62,21 @@ var TrueOrFalseDESC = map[bool]string{
 	true:  "是",
 	false: "否",
 }
+
+var MetricDESC = map[string]string{
+	"DO1": "空开",
+	"DO2": "报警器",
+	"DI1": "烟雾报警",
+	"DI2": "柜门状态",
+	"Ia":  "A相电流",
+	"Ib":  "B相电流",
+	"Ic":  "C相电流",
+	"IR":  "剩余电流",
+	"T1":  "A相温度",
+	"T2":  "B相温度",
+	"T3":  "C相温度",
+	"T4":  "箱体温度",
+	"Ua":  "A相电压",
+	"Ub":  "B相电压",
+	"Uc":  "C相电压",
+}
