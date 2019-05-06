@@ -57,3 +57,8 @@ var DeviceStatusDESC = map[int]string{
 	Warn:     "设备预警",
 	Alert:    "设备报警",
 }
+
+var TrueOrFalseDESC = map[bool]string{
+	true:  "是",
+	false: "否",
+}
