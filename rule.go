@@ -7,6 +7,7 @@ const (
 	VJL     = 3
 	RCN350F = 4
 	PMC350  = 5
+	RCNVJ   = 6
 
 	// 设备状态
 	Inactive = 0 // 设备未激活
@@ -42,6 +43,7 @@ var DeviceTypeLowerCaseFullName = map[int]string{
 	VJL:     "vjl",
 	RCN350F: "rcn350f",
 	PMC350:  "pmc350",
+	RCNVJ:   "rcn-vj",
 }
 
 var DeviceTypeLowerCaseShortName = map[int]string{
