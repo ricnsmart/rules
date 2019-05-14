@@ -8,6 +8,7 @@ const (
 	RCN350F = 4
 	PMC350  = 5
 	RCNVJ   = 6
+	GS524N  = 7
 
 	// 设备状态
 	Inactive = 0 // 设备未激活
@@ -44,12 +45,14 @@ var DeviceTypeLowerCaseFullName = map[int]string{
 	RCN350F: "rcn350f",
 	PMC350:  "pmc350",
 	RCNVJ:   "rcn-vj",
+	GS524N:  "gs524n",
 }
 
 var DeviceTypeLowerCaseShortName = map[int]string{
 	PMC350F: "f",
 	RCN350F: "r",
 	PMC350:  "a",
+	GS524N:  "g",
 }
 
 var DeviceStatusDESC = map[int]string{
