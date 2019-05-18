@@ -17,6 +17,9 @@ const (
 	Warn     = 3 // 设备预警
 	Alert    = 4 // 设备报警
 
+	// 用户状态
+	AccountDisabled = -1
+
 	// Redis Key
 	DeviceStatus   = `devices/status`
 	ServiceVersion = `service/version`
