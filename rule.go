@@ -51,11 +51,13 @@ var DeviceTypeLowerCaseFullName = map[int]string{
 	GS524N:  "gs524n",
 }
 
+// 域名首字母
 var DeviceTypeLowerCaseShortName = map[int]string{
 	PMC350F: "f",
 	RCN350F: "r",
 	PMC350:  "a",
 	GS524N:  "g",
+	RCNVJ:   "j",
 }
 
 var DeviceStatusDESC = map[int]string{
