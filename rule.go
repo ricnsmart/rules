@@ -18,13 +18,16 @@ const (
 	Warn     = 3 // 设备预警
 	Alert    = 4 // 设备报警
 
+	// 用户状态
+	AccountDisabled = -1
+
 	// Redis Key
 	DeviceStatus   = `devices/status`
 	ServiceVersion = `service/version`
 
 	// RabbitMQ
 	AlarmExchange = `alarms`
-	ParamSuffix   = `.params`
+	ParamExchange = `params`
 
 	// MongoDB
 	DevicesCollection = `devices`
@@ -49,11 +52,13 @@ var DeviceTypeLowerCaseFullName = map[int]string{
 	GS524N:  "gs524n",
 }
 
+// 域名首字母
 var DeviceTypeLowerCaseShortName = map[int]string{
 	PMC350F: "f",
 	RCN350F: "r",
 	PMC350:  "a",
 	GS524N:  "g",
+	RCNVJ:   "j",
 }
 
 var DeviceStatusDESC = map[int]string{
