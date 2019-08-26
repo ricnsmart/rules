@@ -2,13 +2,14 @@ package rules
 
 const (
 	// 设备类型常量
-	PMC350F = 1
-	VJG     = 2
-	VJL     = 3
-	RCN350F = 4
-	PMC350  = 5
-	RCNVJ   = 6
-	GS524N  = 7
+	PMC350F      = 1
+	VJG          = 2
+	VJL          = 3
+	RCN350F      = 4
+	PMC350       = 5
+	RCNVJ        = 6
+	GS524N       = 7
+	Extinguisher = 8
 
 	// 设备状态
 	Inactive = 0 // 设备未激活
