@@ -43,22 +43,24 @@ const (
 )
 
 var DeviceTypeLowerCaseFullName = map[int]string{
-	PMC350F: "pmc350f",
-	VJG:     "vjg",
-	VJL:     "vjl",
-	RCN350F: "rcn350f",
-	PMC350:  "pmc350",
-	RCNVJ:   "rcn-vj",
-	GS524N:  "gs524n",
+	PMC350F:      "pmc350f",
+	VJG:          "vjg",
+	VJL:          "vjl",
+	RCN350F:      "rcn350f",
+	PMC350:       "pmc350",
+	RCNVJ:        "rcn-vj",
+	GS524N:       "gs524n",
+	Extinguisher: "extinguisher",
 }
 
 // 域名首字母
 var DeviceTypeLowerCaseShortName = map[int]string{
-	PMC350F: "f",
-	RCN350F: "r",
-	PMC350:  "a",
-	GS524N:  "g",
-	RCNVJ:   "j",
+	PMC350F:      "f",
+	RCN350F:      "r",
+	PMC350:       "a",
+	GS524N:       "g",
+	RCNVJ:        "j",
+	Extinguisher: "e",
 }
 
 var DeviceStatusDESC = map[int]string{
