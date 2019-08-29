@@ -10,6 +10,8 @@ const (
 	RCNVJ        = 6
 	GS524N       = 7
 	Extinguisher = 8
+	TK82         = 9
+	TK83         = 10
 
 	// 设备状态
 	Inactive = 0 // 设备未激活
@@ -51,16 +53,17 @@ var DeviceTypeLowerCaseFullName = map[int]string{
 	RCNVJ:        "rcn-vj",
 	GS524N:       "gs524n",
 	Extinguisher: "extinguisher",
+	TK82:         "tk82",
+	TK83:         "tk83",
 }
 
 // 域名首字母
 var DeviceTypeLowerCaseShortName = map[int]string{
-	PMC350F:      "f",
-	RCN350F:      "r",
-	PMC350:       "a",
-	GS524N:       "g",
-	RCNVJ:        "j",
-	Extinguisher: "e",
+	PMC350F: "f",
+	RCN350F: "r",
+	PMC350:  "a",
+	GS524N:  "g",
+	RCNVJ:   "j",
 }
 
 var DeviceStatusDESC = map[int]string{
@@ -93,4 +96,6 @@ var MetricDESC = map[string]string{
 	"Ub":           "B相电压",
 	"Uc":           "C相电压",
 	"Extinguisher": "灭火器",
+	"TK82":         "水压",
+	"TK83":         "水位",
 }
