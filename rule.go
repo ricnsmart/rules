@@ -53,8 +53,8 @@ var DeviceTypeLowerCaseFullName = map[int]string{
 	RCNVJ:        "rcn-vj",
 	GS524N:       "gs524n",
 	Extinguisher: "extinguisher",
-	TK82:         "tk82",
-	TK83:         "tk83",
+	TK82:         "taike",
+	TK83:         "taike",
 }
 
 // 域名首字母
