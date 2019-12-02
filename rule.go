@@ -12,6 +12,7 @@ const (
 	Extinguisher = 8
 	TK82         = 9
 	TK83         = 10
+	GS894C       = 11
 
 	// 设备状态
 	Inactive = 0 // 设备未激活
@@ -55,6 +56,7 @@ var DeviceTypeLowerCaseFullName = map[int]string{
 	Extinguisher: "extinguisher",
 	TK82:         "tk82",
 	TK83:         "tk83",
+	GS894C:       "gs894c",
 }
 
 // 域名首字母
